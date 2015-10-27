@@ -79,10 +79,19 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AleInterf.h" />
+    <ClInclude Include="ClassFactory.h" />
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="EventSlot.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GraphKeeper.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Level.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Core.cpp" />
     <ClCompile Include="Schoololo.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
